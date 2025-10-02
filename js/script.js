@@ -625,13 +625,26 @@ answerButtons.forEach(function(button) {
 
 
 
-let successButton = document.querySelectorAll('.success-btn');
+let successButton = document.querySelectorAll('.show-result-btn');
 successButton.forEach(function(button) {
     button.addEventListener("click", function() {
         console.log("The successButton was clicked!");
         displayedFeedback = document.querySelectorAll(".myFeedbackasdf");
         displayedFeedback.forEach(function(feedback) {
             feedback.className = "myFeedbackasdf container d-flex flex-coloumn justify-content-center"
+
+        })
+
+    });
+});
+
+let hideResultsButton = document.querySelectorAll('.hide-results-btn');
+hideResultsButton.forEach(function(button) {
+    button.addEventListener("click", function() {
+        console.log("The hideResultsButton was clicked!");
+        displayedFeedback = document.querySelectorAll(".myFeedbackasdf");
+        displayedFeedback.forEach(function(feedback) {
+            feedback.className = "myFeedbackasdf container d-none flex-coloumn justify-content-center"
 
         })
 
