@@ -9,68 +9,102 @@
     <link rel="stylesheet" href ="./css/style.css">
 </head>
 <body>
-    <h1 id = "randomTitle" class="text-center mt-4">YOUR CHAPTER CHOICE HERE</h1>
+  <div class="sidebar d-flex flex-column overflow-auto chapters-parent-element">
+  </div>
+  <button class="btn btn-success mb-4 d-none chapters-btn">Chapter #</button>
+  
+  <div class = "main">
+
+    <div id = "asdfasdfasdfasdf" class = "content">
+      
+      <h1 id = "randomTitle" class="text-center mt-4 randomTitle" >YOUR CHAPTER CHOICE HERE</h1>
     
-    <!-- Start quiz element -->
-    <div class="container d-flex justify-content-center" id="question-1">
-      <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3" id = "Page_Question">YOUR QUIZ QUESTION HERE</h4>
-        <div id = "mood-buttons" class="row g-2">
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer=0>ANSWER CHOICE A</button>
+      <!-- Start quiz element -->
+      <div class="container d-flex justify-content-center" id="question-1">
+        <div class="card my-4 p-4 question-block" style="width: 75%;">
+          <div id="the-starter-display" class="the-starter-display">
+            <h3>Choose a chapter to start!</h3>
           </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer=1>ANSWER CHOICE B</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer=2>ANSWER CHOICE C</button>
-          </div>
-          <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer=3>ANSWER CHOICE D</button>
+          <div id="the-displayed-question-and-answers" class = "d-none the-displayed-question-and-answers">
+            <h4 class="mb-3" id = "Page_Question">YOUR QUIZ QUESTION HERE</h4>
+            <div id = "mood-buttons" class="row g-2">
+              <div class="col-6">
+                <button class="btn btn-outline-primary w-100 answer-btn" data-answer=0>ANSWER CHOICE A</button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-outline-primary w-100 answer-btn" data-answer=1>ANSWER CHOICE B</button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-outline-primary w-100 answer-btn" data-answer=2>ANSWER CHOICE C</button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-outline-primary w-100 answer-btn" data-answer=3>ANSWER CHOICE D</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
     
     
-    <!-- End quiz element -->
-
-    <!-- Add more quiz elements here -->
-
-
-
-    <div class="container d-flex justify-content-center">
-      <button id="show-result" class="btn btn-success my-4">Show Results</button>
-    </div>    
-    <!-- Output the result here -->
-    <div id = "theBox" class="container d-flex justify-content-center">
-      <div id="result-container" class="card p-4 mb-4" style="width: 75%; display:flex">
-        <h3>Your Result:</h3>
-        <p id="result-text">Score</p>
-      </div>
-    </div>
-
-
-      
-      
-    <div id = "allOfThis" class = "container d-none justify-content-center">
-      <div class = "card p-4 mb-4" style = "width:75%; display:flex">
-        <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
-          <div class="mb-3 mb-md-0 d-flex text-nowrap">
-            <a class="questionNumberText btn btn-sm btn-bd-light rounded-2">
-              Question number goes here
-            </a>
-          </div>
-          <p class="correctOrIncorrect bd-title mb-0" id="content">
-            Incorrect or Correct
-          </p>
+    
+      <!-- End quiz element -->
+    
+      <!-- Add more quiz elements here -->
+    
+    
+    
+      <div class="container d-flex justify-content-center">
+        <button id="show-result" class="btn btn-success my-4 success-btn">Show Results</button>
+      </div>    
+      <!-- Output the result here -->
+      <div id = "theBox" class="container d-flex justify-content-center">
+        <div id="result-container" class="card p-4 mb-4" style="width: 75%; display:flex">
+          <h3>Your Result:</h3>
+          <p id="result-text">Score</p>
         </div>
-          <p>Question goes here</p>
       </div>
-    </div>
-      
     
+    
+    
+    
+      <div class = "d-flex flex-column align-items-center theParentContainer">
+      </div>
+
+
+      <div class = "myFeedback d-none">
+        <div class = "d-flex card p-4 mb-4" style = "width:75%;">
+          <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+            <div class="mb-3 mb-md-0 d-flex text-nowrap">
+              <a class="questionNumberText btn btn-sm btn-bd-light rounded-2">
+                Question number goes here
+              </a>
+            </div>
+            <p class="correctOrIncorrect bd-title mb-0" id="content">
+              Incorrect or Correct
+            </p>
+          </div>
+            <p class = "displayedQuestionFinal">Question goes here</p>
+            <ul>
+              <li class = "testingThisOut">answers go here</li>
+              <li class = "testingThisOut">answers go here</li>
+              <li class = "testingThisOut">answers go here</li>
+              <li class = "testingThisOut">answers go here</li>
+            </ul>
+        </div>
+      </div>
+
+
+      <div class = "shit">
+
+      </div>
+      <a href = "testing.html" class = "d-flex justify-content-center">aasdf</a>
+
+
+
+
+    </div>
+  </div>
+      
     <!-- Connect to your script file here -->
     <script src = "./js/script.js"></script>
 </body>

@@ -4,3 +4,49 @@
     border-color: #007bff;
 }
   
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-left: 200px; /* Prevent content from going under sidebar */
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  background-color: #ecf0f1;
+  height: max-content;
+}
+
+.content {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.history-container {
+  max-height: 400px; /* or whatever makes sense */
+  overflow-y: auto;
+  margin-top: 20px;
+  padding-right: 10px;
+}
