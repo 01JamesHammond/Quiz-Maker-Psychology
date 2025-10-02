@@ -1,4 +1,4 @@
-const questionsList = [
+const questionsListAAA = [
     [ // Chapter 1: JavaScript Basics
         "What is JavaScript?",
         "How do you declare a variable in JavaScript?",
@@ -22,7 +22,7 @@ const questionsList = [
     ]
 ];
 
-const answersList = [
+const answersListAAA = [
     [ // Chapter 1: JavaScript
         ["A programming language", "A database", "A markup language", "A spreadsheet tool"],
         ["let x = 5;", "var: 5 = x;", "create x = 5;", "int x = 5;"],
@@ -46,7 +46,7 @@ const answersList = [
     ]
 ];
 
-const answerKeyList = [
+const answerKeyListAAA = [
     [ // Chapter 1 answers (correct texts)
         "A programming language",
         "let x = 5;",
@@ -70,11 +70,11 @@ const answerKeyList = [
     ]
 ];
 
-let chaptersList = [
+let chaptersListAAA = [
   "Chapter 1", "Chapter 2", "Chapter 3"
 ];
 
-const questionsListAAA = [
+const questionsList = [
   // Chapter 4: Nature, Nurture, and Human Diversity
   [ // Chapter 4
     "What is defined as the basic unit of inheritance in the chapter?",
@@ -138,7 +138,7 @@ const questionsListAAA = [
   ]
 ];
 
-const answersListAAA = [
+const answersList = [
   [ // Chapter 4
     ["Chromosomes", "Genes", "DNA sequences", "Alleles"],
     ["Over 50%", "Over 75%", "Over 90%", "Over 99%"],
@@ -201,7 +201,7 @@ const answersListAAA = [
   ]
 ];
 
-const answerKeyListAAA = [
+const answerKeyList = [
   [ // Chapter 4
     "Genes",
     "Over 99%",
@@ -264,8 +264,8 @@ const answerKeyListAAA = [
   ]
 ];
 
-let chaptersListAAA = [
-  "Chapter 1"
+let chaptersList = [
+  "Chapter 4"
 ];
 
 
