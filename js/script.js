@@ -637,7 +637,7 @@ const answersList = [
 ];
 
 const answerKeyList = [
-    [
+    [ // Exam 1
         "Stress subjective approach to questions and answers",
         "The ability to admit one's own mistakes or limitations.",
         "Unbiased observation and analysis.",
@@ -688,7 +688,7 @@ const answerKeyList = [
         "amygdala",
         "The idea that memory is strongest when retrieval conditions match encoding conditions",
         "New information during wakefulness interferes with memory consolidation."
-    ]
+    ],
     [ // Chapter 4
         "Genes",
         "Over 99%",
@@ -842,7 +842,7 @@ const answerKeyList = [
         "Non-concrete ideas like philosophy",
         "Hypothetical futures"
     ],
-    [
+    [ // Chapter 6
         "Failure or deficit in recognizing objects",
         "Patient sees a rose's color and shape but cannot identify it until smelling it",
         "Disruption of face recognition",
