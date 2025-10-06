@@ -75,6 +75,59 @@ let chaptersListAAA = [
 ];
 
 const questionsList = [
+
+    [ // Exam 1 questions
+        "Which of the following is NOT an example of scientific attitude?",
+        "Humility in a scientific context refers to:",
+        "An objective approach to research emphasizes:",
+        "We only use 10% of our brain.",
+        "A gambler notices that a roulette wheel has landed on red four times in a row. They bet on red again because they feel it is 'hot.' Which cognitive bias are they exhibiting?",
+        "In psychological science, which of the following comes first in the research process?",
+        "A(n) ________ is a testable prediction that is arrived at logically from a(n) ________.",
+        "Which of the following is NOT a common research method?",
+        "Which of the following is NOT a common issue associated with survey or interview research methods?",
+        "Briggs is interested in whether there is a difference in the way males and females carry objects such as backpacks and computer cases, so she sets up a hidden camera on the main mall of the college and videotapes students at various times throughout the day. Which type of study is this?",
+        "A little girl at the local elementary school is writing symphonies for full orchestra at age 7. You’re curious to know about this child’s personality and other psychological qualities. Which type of study would you conduct?",
+        "Choose the scatterplot below that is most consistent with the results of this correlational study.",
+        "If you receive a telephone call from someone asking that you explain your preferences for certain kinds of products, you are the subject of a ________.",
+        "A psychologist wants to test whether a new type of therapy reduces anxiety more effectively than no treatment. She randomly assigns half of the participants to receive therapy and the other half to receive no treatment. The group that receives no treatment is called the:",
+        "A researcher wants to test whether sleep deprivation affects memory. Participants are randomly assigned to either sleep for 8 hours or stay awake for 24 hours before a memory test. Why does this design allow for causal inference?",
+        "In conventional statistical analysis, what is the commonly used p-value threshold to determine statistical significance?",
+        "The Implicit Association Test (IAT) is a psychological tool designed to measure:",
+        "The primary outcome measure in the Implicit Association Test (IAT) is",
+        "The fundamental attribution error theorizes that when analyzing others’ behavior, we tend to underestimate the impact of the _____ and to overestimate the impact of _____.",
+        "When Catherine landed a big contract for her firm, she accepted the credit for her hard work and smart 'wheeling and dealing.' When she failed to get the contract in another situation, she blamed the sneaky and dishonest tactics of the competition. What is this an example of?",
+        "Celebrity endorsements of products utilize the ________ to persuasion.",
+        "What is the foot-in-the-door phenomenon?",
+        "Neuroscience research suggests that which type of neurons supports empathy, relatedness, and agreement?",
+        "Giselle understands the harmful effects of smoking, and yells at her parents for smoking, but smokes anyway. She feels some psychological discomfort from her hypocritical behavior. This discomfort is called",
+        "Which of the following is an example of the Chameleon Effect?",
+        "Conforming to avoid rejection or to gain social approval is known as _____ social influence.",
+        "Before registering for the next semester, Karen asks her friends about a professor she doesn’t know. They all say the professor is a great teacher. Consequently, Karen assumes that this person is a great teacher and enrolls in the course. Which type of conformity is this?",
+        "What was the main purpose of Milgram's experiment, where subjects administered increasingly severe shocks to the 'learners' when instructed?",
+        "What was the main finding of the Stanford Prison Experiment conducted by Philip Zimbardo?",
+        "Hassan works out harder than usual at the gym when a friend is watching. Which term describes Hassan’s behavior?",
+        "Which term describes Ben’s behavior when he exerts little to no effort on a group task and uses the excuse 'Anyway, the work is being done by others'?",
+        "Cedrick is the floor manager at a restaurant. He calls a meeting with his staff to discuss scheduling, and he gives his idea first. Everyone quickly agrees with him and his new idea is implemented. This is an example of",
+        "Group polarization refers to the tendency for",
+        "Kitty Genovese was brutally murdered in front of several eyewitnesses who did not intervene or call for help. According to social psychologists, this failure to assist Kitty was due to ________.",
+        "What is the main purpose of calculating a measure of central tendency?",
+        "Which of the following is NOT a measure of central tendency?",
+        "What is the defining feature of anterograde amnesia as seen in HM and Clive Wearing?",
+        "Gabe was essentially fluent in French in elementary school when he lived in Canada, but then moved away until he got a job offer to work in Paris during his 20s. He picks it up again surprisingly fast. This is an example of ________, indicating memory retention.",
+        "If a test primarily asks students to choose answers from options rather than write them from memory, which type of memory is being tested?",
+        "According to the three-stage information-processing model, before an incoming information makes it to long-term memory, it must first pass through ________ and short-term memory.",
+        "What is the typical capacity of short-term memory according to Cowan (2010)?",
+        "Caroline met a new friend named Wendy. Wendy was wearing a green shirt, which reminded Caroline of Peter Pan, so Caroline plans to remember Peter Pan when she thinks about her new friend’s name. This is an example of",
+        "Which of the following study strategies is generally more effective for long-term learning?",
+        "Episodic memories and semantic memories are both examples of ________ memory.",
+        "Arianna was an accomplished gymnast in her youth but hasn’t been to the gym for nearly 10 years. Despite this, with some prompting from her old coach, she’s able to do almost her entire uneven bar routine. This is an example of",
+        "In experiments, when people viewed a list of items, they recalled the last items quickly and well, a phenomenon known as",
+        "Lee, who was very attached to their grandmother, can remember with clarity every detail of the day she died, and Lee gets very emotional when they recall that day. Which type of memory is Lee using for this emotionally charged recall?",
+        "When rats had their ________ removed, they no longer experienced their fear memory.",
+        "What is encoding specificity in the context of memory?",
+        "Which of the following is true about memory consolidation?"
+    ],
   // Chapter 4: Nature, Nurture, and Human Diversity
     [ // Chapter 4
         "What is defined as the basic unit of inheritance in the chapter?",
@@ -304,6 +357,58 @@ const questionsList = [
 ];
 
 const answersList = [
+    [
+        ["Stress subjective approach to questions and answers", "Admitting that we are error-prone", "Not satisfied until question is addressed", "Requiring evidence for support of claims"],
+        ["A belief that one's own theories are always correct.", "A tendency to search for evidence that conforms one's beliefs.", "The ability to admit one's own mistakes or limitations.", "A tendency to disbelieve until substantial convincing occurs."],
+        ["Relying solely on anecdotal evidence.", "Unbiased observation and analysis.", "Emotional responses and subjective interpretations.", "Personal opinions and beliefs."],
+        ["True.", "False.", "We don't know the answer yet.", "This is true when we are sleeping."],
+        ["Overconfidence", "Hindsight bias", "Perceiving order in random events", "Confirmation bias"],
+        ["Data collection", "Hypotheses", "Theory", "Operational definitions"],
+        ["hypothesis; theory", "theory; hypothesis", "theory; observation", "experiment; observation"],
+        ["Naturalistic observation", "Anecdotal evidence", "Case study", "Correlation"],
+        ["Survey design may influence responses", "Self-report may not be accurate", "Results are based on the people in the poll", "Only a small number of people are willing to provide a response"],
+        ["experiment", "naturalistic observation", "case study", "survey"],
+        ["experiment", "naturalistic observation", "case study", "survey"],
+        ["dot pattern runs from lower left to upper right", "dot distribution is essentially random", "dot pattern runs from upper left to lower right"],
+        ["naturalistic observation", "survey", "case study", "experiment"],
+        ["Independent variable", "Dependent variable", "Experimental group", "Control group"],
+        ["Because the researcher controlled conditions and randomly assigned participants, reducing confounds", "Because the independent and dependent variables are both observed naturally", "Because the researcher measured variables without interference", "Because the study is conducted in a lab, ensuring external validity"],
+        ["0.001", "0.1", "0.05", "0.5"],
+        ["conscious thoughts and intentions", "explicit attitudes and beliefs", "implicit biases and associations", "personality traits and characteristics"],
+        ["reaction time", "participant self-report", "response accuracy", "eye movement"],
+        ["personal disposition; situation", "personal disposition; attitudes", "situation; situational causes", "situation; personal disposition"],
+        ["The false-consensus effect", "The fundamental attribution error", "The confirmation bias", "The self-serving bias"],
+        ["central route", "foot-in-the-door", "cognitive route", "peripheral route"],
+        ["The tendency to reject a request after initially accepting a smaller one", "The act of refusing all requests to maintain personal autonomy", "The strategy of making a large request first to ensure compliance with a smaller one later", "The tendency to comply with a large request after agreeing to a small one"],
+        ["Motor neurons", "Sensory neurons", "Mirror neurons", "Bipolar neurons"],
+        ["attitude", "cognitive dissonance", "perceptive deception", "self-serving bias"],
+        ["Intentionally dressing like a celebrity to get attention", "Planning a group project to ensure equal participation", "Memorizing a friend’s schedule to avoid conflicts", "Laughing when everyone else in the room is laughing, without realizing it"],
+        ["informational", "normative", "persuasive", "contagious"],
+        ["Normative conformity", "Educational conformity.", "Informational conformity", "Intentional conformity"],
+        ["To examine the effect of punishment on learning", "To test problem-solving skills in groups", "To investigate how authority affects people’s willingness to obey orders", "To study memory retention under stress"],
+        ["Individuals quickly conform to social roles, sometimes leading to extreme behavior.", "Social roles have little influence on behavior unless individuals are trained for them.", "People naturally resist social roles that conflict with their personal values.", "People's behavior is influenced more by personality traits than social roles."],
+        ["social loafing", "social facilitation", "cooperation", "competition"],
+        ["social slacking", "social facilitation", "social indifference", "social loafing"],
+        ["group patterns", "group polarization", "groupthink", "inter-group bias"],
+        ["groups to become more cohesive over time.", "group members to become more extreme in their opinions after discussion.", "groups to make decisions that are more risky than individual members would have.", "group members to avoid conflict and make compromises."],
+        ["the selfish nature of human beings", "deficits in empathy", "people’s unwillingness to help women in society", "a diffusion of responsibility"],
+        ["To identify every individual score in a dataset", "To characterize the center of a distribution with a single representative value", "To determine the variability of a dataset", "To measure the correlation between two variables"],
+        ["Correlation coefficient", "Mode", "Median", "Mean"],
+        ["Inability to remember events from early childhood", "Temporary memory loss that recovers within hours", "Inability to form new long-term memories after brain damage", "Loss of procedural memory but intact episodic memory"],
+        ["recognition", "encoding", "recall", "relearning"],
+        ["Relearning", "Recognition", "Sensory memory", "Recall"],
+        ["explicit", "semantic", "sensory", "implicit"],
+        ["10 ± 3 items", "4 ± 1 items", "7 ± 2 items", "9 items"],
+        ["chunking.", "rehearsing.", "method of loci.", "a mnemonic device."],
+        ["Testing yourself on the material", "Studying a large amount of material without breaks", "Studying while doing other activities (e.g., checking social media, watching TV)", "Re-reading the material multiple times"],
+        ["Implicit", "sensory", "explicit", "short-term"],
+        ["explicit memory.", "sensory memory.", "episodic memory.", "procedural memory."],
+        ["a recency effect.", "a primacy effect.", "encoding specificity.", "mood congruency."],
+        ["long-term potentiation", "implicit memory", "memory consolidation", "flashbulb memory"],
+        ["amygdala", "cerebellum", "hippocampus", "prefrontal cortex"],
+        ["The process of storing information in long-term memory without needing retrieval cues", "The idea that memory is strongest when retrieval conditions match encoding conditions", "The tendency to forget information due to interference from new learning", "The ability to recall information without any environmental or contextual influence"],
+        ["New information during wakefulness interferes with memory consolidation.", "Sleep and wakefulness have no role in memory consolidation.", "Sleep prevents the brain from forming new memories.", "Memory consolidation is equally effective during wakefulness and sleep."]
+    ],
     [ // Chapter 4
         ["Chromosomes", "Genes", "DNA sequences", "Alleles"],
         ["Over 50%", "Over 75%", "Over 90%", "Over 99%"],
@@ -360,7 +465,7 @@ const answersList = [
         ["Genes shape chosen environments", "Genetic makeup stays dormant without opportunity", "Traits evoke environmental responses", "Environment alters genes directly"],
         ["Outgoing person seeks risks", "Smiling baby gets positive responses", "Genes for cognitive potential in enriched education", "Crying baby gets attention"],
         ["Genes remain dormant without activation", "Gene expression shapes received environment", "Traits determine chosen environments", "Environment evokes genes"],
-        ["Genes for high IQ in adverse setting", "Outgoing seeks exciting activities", "Genes dormant without opportunity", "Cognitive potential thrives with education"],
+        ["Genes for high IQ in adverse setting", "Outgoing seeks exciting activities", "Genes dormant without opportunity", "Smiling baby gets positive responses"],
         ["Genes evoke responses from environment", "Environment shapes gene expression passively", "Traits from genes determine chosen environments", "Genes stay dormant"],
         ["Smiling baby evokes smiles", "Cognitive potential in enriched setting", "Crying baby gets more attention", "Risk-taking person seeks danger"]
     ],
@@ -532,6 +637,58 @@ const answersList = [
 ];
 
 const answerKeyList = [
+    [
+        "Stress subjective approach to questions and answers",
+        "The ability to admit one's own mistakes or limitations.",
+        "Unbiased observation and analysis.",
+        "False.",
+        "Perceiving order in random events",
+        "Theory",
+        "hypothesis; theory",
+        "Anecdotal evidence",
+        "Only a small number of people are willing to provide a response",
+        "naturalistic observation",
+        "case study",
+        "dot distribution is essentially random",
+        "survey",
+        "Control group",
+        "Because the researcher controlled conditions and randomly assigned participants, reducing confounds",
+        "0.05",
+        "implicit biases and associations",
+        "reaction time",
+        "situation; personal disposition",
+        "The self-serving bias",
+        "peripheral route",
+        "The tendency to comply with a large request after agreeing to a small one",
+        "Mirror neurons",
+        "cognitive dissonance",
+        "Laughing when everyone else in the room is laughing, without realizing it",
+        "normative",
+        "Informational conformity",
+        "To investigate how authority affects people’s willingness to obey orders",
+        "Individuals quickly conform to social roles, sometimes leading to extreme behavior.",
+        "social facilitation",
+        "social loafing",
+        "groupthink",
+        "group members to become more extreme in their opinions after discussion.",
+        "a diffusion of responsibility",
+        "To characterize the center of a distribution with a single representative value",
+        "Correlation coefficient",
+        "Inability to form new long-term memories after brain damage",
+        "relearning",
+        "Recognition",
+        "sensory",
+        "4 ± 1 items",
+        "a mnemonic device.",
+        "Testing yourself on the material",
+        "explicit",
+        "procedural memory.",
+        "a recency effect.",
+        "flashbulb memory",
+        "amygdala",
+        "The idea that memory is strongest when retrieval conditions match encoding conditions",
+        "New information during wakefulness interferes with memory consolidation."
+    ]
     [ // Chapter 4
         "Genes",
         "Over 99%",
@@ -760,6 +917,7 @@ const answerKeyList = [
 ];
 
 let chaptersList = [
+  "Exam 1",
   "Chapter 4",
   "Chapter 5",
   "Chapter 6"
@@ -774,7 +932,8 @@ let newAnswerKeyList
 let currentQuestionIndex = 0;
 let currentAnswerList = [];
 let totalNumberOfQuestions = 0; // This will keep track of how many elements are left in the array updatedListOfQuestions.
-
+let totalRight = 0;
+let totalQuestions;
 
 
 displayChaptersSidebar();
@@ -880,6 +1039,7 @@ function determineAnswerStatus(button){
     userResponse = currentAnswerList[userResponseIndex];
     if (newAnswerKeyList[currentQuestionIndex] === userResponse){
         answerStatus = "CORRECT";
+        totalRight++;
     }
     else{
         answerStatus = "INCORRECT";
@@ -914,6 +1074,8 @@ function addingHiddenGradesAndFeedback(){
     const questionNumberElement = clonedContainer.querySelector('.questionNumberText');
     const CorrectOrIncorrectElement = clonedContainer.querySelector('.correctOrIncorrect');
     const questionDisplayedElement = clonedContainer.querySelector('.displayedQuestionFinal');
+    const scoreDisplayedAsFractionElement = clonedContainer.querySelector('.scoreAsFraction');
+    const scoreDisplayedElement = clonedContainer.querySelector('.displayedTotalScoreSoFar');
     
     let allBulletPoints = clonedContainer.querySelectorAll('.testingThisOut');
     allBulletPoints.forEach((currentBulletPoint, index) => {
@@ -944,6 +1106,10 @@ function addingHiddenGradesAndFeedback(){
             questionNumberElement.textContent = `Question ${questionNumberTicker}`;
             CorrectOrIncorrectElement.textContent = answerStatus;
             questionDisplayedElement.textContent = updatedListOfQuestions[currentQuestionIndex];
+            let finalScoreUpToPoint = (totalRight/totalQuestions)* 100;
+            finalScoreUpToPoint = (finalScoreUpToPoint).toFixed(2); // Convert to percentage and round to 2 decimal places
+            scoreDisplayedAsFractionElement.textContent = (totalRight) + "/" + (totalQuestions);
+            scoreDisplayedElement.textContent = "Score: " + (finalScoreUpToPoint) + "%";
             
             parentElement.appendChild(clonedContainer);
             
@@ -995,6 +1161,7 @@ chapterButtonsSidebar.forEach(function(button) {
         currentQuestionIndex = 0;
         currentAnswerList = [];
         totalNumberOfQuestions = answersList[chapterIndexChosenByUser].length; // This will keep track of how many elements are left in the array updatedListOfQuestions.
+        totalQuestions = totalNumberOfQuestions;
         console.log("The chapterButtonsSidebar was pressed!"); 
         console.log(questionsList[0].length);
         main();
