@@ -1,4 +1,4 @@
-const questionsListAAA = [
+const questionsList = [
     [ // Chapter 1: JavaScript Basics
         "What is JavaScript?",
         "How do you declare a variable in JavaScript?",
@@ -22,7 +22,7 @@ const questionsListAAA = [
     ]
 ];
 
-const answersListAAA = [
+const answersList = [
     [ // Chapter 1: JavaScript
         ["A programming language", "A database", "A markup language", "A spreadsheet tool"],
         ["let x = 5;", "var: 5 = x;", "create x = 5;", "int x = 5;"],
@@ -46,7 +46,7 @@ const answersListAAA = [
     ]
 ];
 
-const answerKeyListAAA = [
+const answerKeyList = [
     [ // Chapter 1 answers (correct texts)
         "A programming language",
         "let x = 5;",
@@ -68,6 +68,12 @@ const answerKeyListAAA = [
         "Creates a flexible layout",
         "background-color: blue;"
     ]
+];
+
+let chaptersList = [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3"
 ];
 
 let chaptersListAAA = [
